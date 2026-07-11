@@ -4,6 +4,7 @@ import Selection from './Componenets/Selection_Conroller/Selection.jsx';
 import Rating from './Componenets/Rating/Rating.jsx';
 import Slide from './Componenets/Image_Slide/slide.jsx';
 import Light_Dark from './Componenets/Light_Dark_Mode/Light_Dark.jsx';
+import Scroll from './Componenets/Rating/Scroll_percentage/Scroll.jsx';
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
        <h1 className='text-center text-[25px] m-5'>Fourth</h1>
        <h1 className='text-center text-[25px] m-5'> White and Dark Background color</h1>
      <Light_Dark/>
+     <Scroll/>
     </div>
   )
 }
