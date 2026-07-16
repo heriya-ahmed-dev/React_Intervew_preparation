@@ -7,6 +7,7 @@ import Light_Dark from './Componenets/Light_Dark_Mode/Light_Dark.jsx';
 import Scroll from './Componenets/Rating/Scroll_percentage/Scroll.jsx';
 import CustomTab from './Componenets/Custom_Tab/CustomTab.jsx';
 import Search from './Componenets/Search_Automate/Search.jsx';
+import Fetching from './Componenets/UseFeatch/Fetching.jsx';
 const App = () => {
   return (
     <div>
@@ -25,7 +26,12 @@ const App = () => {
       <h1 className='text-center text-[25px] m-5'> Six</h1>
       <h1 className='text-center text-[25px] m-5'> Custom Tab</h1>
      <CustomTab/>
+      <h1 className='text-center text-[25px] m-5'> Seven</h1>
+      <h1 className='text-center text-[25px] m-5'> Search Automate</h1>
      <Search/>
+      <h1 className='text-center text-[25px] m-5'> Eight</h1>
+      <h1 className='text-center text-[25px] m-5'>UseFetch</h1>
+     <Fetching/>
     </div>
   )
 }

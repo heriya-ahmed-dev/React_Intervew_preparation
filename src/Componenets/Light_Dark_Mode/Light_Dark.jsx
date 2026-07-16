@@ -5,7 +5,8 @@ const Light_Dark = () => {
   return (
     <div
         style={{backgroundColor : light ?'white' : 'black',
-            height: "585px"
+            height: "585px",
+            transitionDuration: '700ms'
         }}
         className='text-center'>
         <button onClick={()=>setLight(!light)} className='justify-center  text-[20px] text-[red] mt-[20px] bg-[#A9A9A9] w-[70px] rounded-[10px]'>
