@@ -8,10 +8,11 @@ import Scroll from './Componenets/Rating/Scroll_percentage/Scroll.jsx';
 import CustomTab from './Componenets/Custom_Tab/CustomTab.jsx';
 import Search from './Componenets/Search_Automate/Search.jsx';
 import Fetching from './Componenets/UseFeatch/Fetching.jsx';
+import HandleClick from './Componenets/Handle_Click/HandleClick.jsx';
 const App = () => {
   return (
     <div>
-      <h1 className='text-center text-[25px] m-5'>First</h1>
+      {/* <h1 className='text-center text-[25px] m-5'>First</h1>
      <Selection/>
      <h1 className='text-center text-[25px] m-5'>Second</h1>
      <Rating/>
@@ -31,7 +32,8 @@ const App = () => {
      <Search/>
       <h1 className='text-center text-[25px] m-5'> Eight</h1>
       <h1 className='text-center text-[25px] m-5'>UseFetch</h1>
-     <Fetching/>
+     <Fetching/> */}
+     <HandleClick/>
     </div>
   )
 }
