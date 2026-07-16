@@ -9,10 +9,11 @@ import CustomTab from './Componenets/Custom_Tab/CustomTab.jsx';
 import Search from './Componenets/Search_Automate/Search.jsx';
 import Fetching from './Componenets/UseFeatch/Fetching.jsx';
 import HandleClick from './Componenets/Handle_Click/HandleClick.jsx';
+import RecipeParent from './Componenets/Recipe_items/RecipeParent.jsx';
 const App = () => {
   return (
     <div>
-      {/* <h1 className='text-center text-[25px] m-5'>First</h1>
+      <h1 className='text-center text-[25px] m-5'>First</h1>
      <Selection/>
      <h1 className='text-center text-[25px] m-5'>Second</h1>
      <Rating/>
@@ -32,8 +33,13 @@ const App = () => {
      <Search/>
       <h1 className='text-center text-[25px] m-5'> Eight</h1>
       <h1 className='text-center text-[25px] m-5'>UseFetch</h1>
-     <Fetching/> */}
+     <Fetching/>
+      <h1 className='text-center text-[25px] m-5'> Nine</h1>
+      <h1 className='text-center text-[25px] m-5'>Handle Click</h1>
      <HandleClick/>
+      <h1 className='text-center text-[25px] m-5'> Ten</h1>
+      <h1 className='text-center text-[25px] m-5'>Items Recipe using Props</h1>
+     <RecipeParent/>
     </div>
   )
 }
