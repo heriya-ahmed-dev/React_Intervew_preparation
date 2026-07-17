@@ -10,6 +10,8 @@ import Search from './Componenets/Search_Automate/Search.jsx';
 import Fetching from './Componenets/UseFeatch/Fetching.jsx';
 import HandleClick from './Componenets/Handle_Click/HandleClick.jsx';
 import RecipeParent from './Componenets/Recipe_items/RecipeParent.jsx';
+import ParticularScroll from './Componenets/Scroll_To_Perticulat_Section/ParticularScroll.jsx';
+
 const App = () => {
   return (
     <div>
@@ -40,6 +42,10 @@ const App = () => {
       <h1 className='text-center text-[25px] m-5'> Ten</h1>
       <h1 className='text-center text-[25px] m-5'>Items Recipe using Props</h1>
      <RecipeParent/>
+     <h1 className='text-center text-[25px] m-5'> Eleven</h1>
+      <h1 className='text-center text-[25px] m-5'>Scroll to particular section Smoothly</h1>
+     <ParticularScroll/>
+     
     </div>
   )
 }
