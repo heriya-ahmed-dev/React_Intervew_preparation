@@ -11,11 +11,12 @@ import Fetching from './Componenets/UseFeatch/Fetching.jsx';
 import HandleClick from './Componenets/Handle_Click/HandleClick.jsx';
 import RecipeParent from './Componenets/Recipe_items/RecipeParent.jsx';
 import ParticularScroll from './Componenets/Scroll_To_Perticulat_Section/ParticularScroll.jsx';
+import LoadMore from './Componenets/Load_More/LoadMore.jsx';
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-center text-[25px] m-5'>First</h1>
+      {/* <h1 className='text-center text-[25px] m-5'>First</h1>
      <Selection/>
      <h1 className='text-center text-[25px] m-5'>Second</h1>
      <Rating/>
@@ -44,8 +45,8 @@ const App = () => {
      <RecipeParent/>
      <h1 className='text-center text-[25px] m-5'> Eleven</h1>
       <h1 className='text-center text-[25px] m-5'>Scroll to particular section Smoothly</h1>
-     <ParticularScroll/>
-     
+     <ParticularScroll/> */}
+     <LoadMore/>
     </div>
   )
 }
